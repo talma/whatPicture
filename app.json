@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "What Picture",
+    "slug": "what-picture",
+    "privacy": "public",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "org.talmpro.whatpicture"
+    },
+    "entryPoint": "node_modules/expo/AppEntry.js",
+    "android": {
+      "package": "org.talmpro.whatpicture"
+    }
+  },
+  "displayName": "What Picture",
+  "name": "whpic"
+}
